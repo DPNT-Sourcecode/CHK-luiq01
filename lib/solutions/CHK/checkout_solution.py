@@ -7,4 +7,3 @@ def checkout(skus):
     calculator = CheckoutCalculator()
     return calculator.computeCost(skus)
 
-
