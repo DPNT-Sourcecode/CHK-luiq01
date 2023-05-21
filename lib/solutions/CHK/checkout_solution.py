@@ -3,4 +3,8 @@
 # noinspection PyUnusedLocal
 # skus = unicode string
 def checkout(skus):
-    raise NotImplementedError()
+    from challenges.checkoutCalculator import CheckoutCalculator
+    calculator = CheckoutCalculator()
+    return calculator.computeCost(skus)
+
+
